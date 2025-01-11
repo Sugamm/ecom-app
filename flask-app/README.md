@@ -2,7 +2,7 @@
 
 ### Installation
 
-1. Install the required packages: `pip install flask flask-sqlalchemy flask-jwt-extended`
+1. Install the required packages: `pip install flask flask-sqlalchemy flask-jwt-extended flask_cors pyjwt<2.10`
 2. Set the `FLASK_APP` environment variable: `export FLASK_APP=app.py`
 3. Run the mock data generation script: `python generate_mock_data.py`
 4. Start the Flask development server: `flask run`
